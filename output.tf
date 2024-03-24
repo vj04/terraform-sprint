@@ -4,4 +4,11 @@ output "resource_group_id" {
 
 output "storage_account_id" {
   value = azurerm_storage_account.example.id
+<<<<<<< HEAD
+=======
+}
+
+output "servicebus_namespace_id" {
+  value = azurerm_servicebus_namespace.example.id
+>>>>>>> 13b591cd344cf3cd3e77b48cf8d9403a54cbed16
 }
